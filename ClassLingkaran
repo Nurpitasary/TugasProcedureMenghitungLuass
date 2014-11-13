@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package id.blits.menghitungluas;
+
+/**
+ *
+ * @author Hp
+ */
+public class Lingkaran {
+    double jarijari,luas;
+    final double phi=3.14;
+    
+    void tampilLingkaran(){
+    luas= phi * jarijari * jarijari;
+    System.out.println("LINGKARAN");
+    System.out.println("Jari Jari   : "+jarijari);
+    System.out.println("Luas        : "+luas+"\n");
+    
+        
+    }
+    
+}
